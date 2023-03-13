@@ -22,6 +22,6 @@ const routes: RouteRecordRaw[] = [
 ]
 
 export default createRouter({
-	history: createWebHistory(),
+	history: createWebHistory('/weather-vue/'),
 	routes
 })
